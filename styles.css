@@ -4,7 +4,7 @@
     font-weight: bold;
 }
 
-p {
+.aqua-bg {
 
     background-color: aqua;
 }
@@ -36,6 +36,6 @@ button {
     color: darkgrey;
 }
 
-bold   {
+.bold   {
     font-weight: bolder;
 }
