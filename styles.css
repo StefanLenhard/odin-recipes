@@ -29,3 +29,9 @@ img {
     width: auto;
 
 }
+
+button {
+    font-weight: bolder;
+    background-color: blue;
+    color: darkgrey;
+}
