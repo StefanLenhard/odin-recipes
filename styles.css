@@ -2,5 +2,30 @@
 
     font-style: italic;
     font-weight: bold;
+}
+
+p {
+
+    background-color: aqua;
+}
+
+h2 {
+
+    background-color: red;
+    font-weight: bolder;
+    font-size: 32px
+
+}
+
+ul {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+img {
+
+    height: auto;
+    width: auto;
 
 }
