@@ -35,3 +35,7 @@ button {
     background-color: blue;
     color: darkgrey;
 }
+
+fat {
+    font-weight: bolder;
+}
