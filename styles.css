@@ -20,13 +20,13 @@ h2 {
 ul {
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
 img {
 
     height: auto;
     width: auto;
+    display:inline-flex
 
 }
 
@@ -38,4 +38,10 @@ button {
 
 .bold   {
     font-weight: bolder;
+}
+
+.flex {
+    display:inline-flex;
+
+
 }
