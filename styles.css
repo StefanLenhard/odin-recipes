@@ -12,14 +12,18 @@
 h2 {
  
     font-weight: bolder;
-    font-size: 32px
+    font-size: 32px;
+    padding-left: 40px ;
 
 }
 
 button {
     font-weight: bolder;
-    background-color: blue;
-    color: darkgrey;
+    color: black;
+    margin-left: auto;
+    margin-right: 0;
+    display:block;
+    
 }
 
 .bold   {
@@ -56,3 +60,37 @@ button {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.content    {
+    width: auto;
+    padding: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:last baseline;
+    
+}
+
+.content img {
+    margin-right: 15px;
+    float: left;
+}
+
+
+.content_headline {
+    width: auto;
+    padding: 20px;
+    display:block;
+    float: right;
+    
+
+}
+
+.content-headline p {
+    margin: 20px 0 0 0;
+    display:block;
+
+    
+}
+
+
