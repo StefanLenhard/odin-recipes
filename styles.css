@@ -32,6 +32,68 @@ button {
 
 
 
+
+.container {
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: 40px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top-container    {
+    width: auto;
+    padding: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid black;
+}
+
+.headline-description-container {
+    width: auto;
+    padding-left: 15px;
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border: 0px solid black; 
+}
+.top-container > * {
+    border: 1px solid black;
+}
+
+.top-container p {
+    border: 1px solid black;
+}
+
+
+.headline-description-container p {
+    margin: 20px 0 0 0;
+    max-width: 550px;
+}
+.columns {
+    display: flex;
+    gap: 2rem;
+    border: 0px solid black;
+}
+
+.columns > * {
+    flex: 1; 
+}
+
+
+.card {
+    padding: 1rem;
+    background: lightblue;
+    border: 1px solid black;
+}
+
+
+
+
+/* the flex parts are redundant and just in there until I have updated all sub-pages, newer version with columns and cards */
 .flex {
     display: flex;
     list-style: none;
@@ -55,45 +117,3 @@ button {
 .flex-item + .flex-item {
     border-left: 1px solid black;
 }
-
-.container {
-    max-width: 70%;
-    margin-right: auto;
-    margin-left: 40px ;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.content    {
-    width: auto;
-    padding: 20px;
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-    justify-content:last baseline;
-    
-}
-
-.content img {
-    margin-right: 15px;
-    float: left;
-}
-
-
-.content_headline {
-    width: auto;
-    padding: 20px;
-    display:block;
-    float: right;
-    
-
-}
-
-.content-headline p {
-    margin: 20px 0 0 0;
-    display:block;
-
-    
-}
-
-

@@ -7,35 +7,50 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 
-<!-- The challenge was here to get the picture next to the headline and the text. The .content and the .content-headline are two boxes, .content-headline encompasses two items, the headline and the text. content-headline is then put into the .content box next to the image.  -->
+<!-- This has been reworked multiple times. It is now 2 flexboxes. One that contains the image one the left and a second box on the right. Alignment is row. The second box contains the headline and the description. The alignment here is column.  -->
 
 
 <body>
     <h1>Slow Cooker Pot Roast</h1>
-<div class="content">  
-    <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9406508.jpg&q=60&c=sc&orient=true&poi=auto&h=512" alt="Picture of Pot Roast with carrots and beans" width="256" height="256">
-    <div class="content_headline">
-        <h2> Description </h2>  
-          <p>This Lipton onion soup pot roast recipe is very easy to prepare and makes a delicious pot roast in its own gravy. The recipe is perfect for those who don't have time to cook all day but want to make something that tastes like they did. You'll want to use a cut of meat between 5 to 6 pounds. </p>
-    </div>
-</div>
-<!-- The challenge was to display the the list horizontally and have separators in between. The list was then put into a container, declared as a flex class and the list items were put into those.  -->
-<h2>Ingredients</h2>
-<div class="container">
-    <ul class="flex">
-        <li class="flex-item">2 (10.5 ounce) cans condensed cream of mushroom soup</li>
-        <li class="flex-item"> 1/4 cups of water</li>
-        <li class="flex-item">1 (1 ounce) package of dry onion soup mix</li>
-        <li class="flex-item">5 1/2 pounds of pot roast</li>
-    </ul>
-</div>
-<h2>Directions</h2>
-<ol>
-    <li>Mix condensed soup, water, and dry onion soup mix in a low cooker. Place pot roast in the cooker and coat with soup mixture.</li>
-    <li>cook on low for 8 to 9 hours.</li>
 
-</ol>
-<a href="../index.html"><button>Back to Main</button></a>
+    <h1> Test Area </h1>
 
+
+        <div class="top-container">  
+             <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9406508.jpg&q=60&c=sc&orient=true&poi=auto&h=512" alt="Picture of Pot Roast with carrots and beans" width="256" height="256">
+            <div class="headline-description-container">
+                <h2> Description </h2>  
+                <p>This Lipton onion soup pot roast recipe is very easy to prepare and makes a delicious pot roast in its own gravy. The recipe is perfect for those who don't have time to cook all day but want to make something that tastes like they did. You'll want to use a cut of meat between 5 to 6 pounds. </p>
+            </div>
+        </div>
+<!-- This was reworked again into a nicer flexbox: Now it's just 1 box with cards that have a title and ingredients.   -->
+
+    <h2>Ingredients </h2>
+        <div class="columns">
+            <article class="card">
+                <h3 class="card-title"> Mushrooms </h3>
+                <p> 2 (10.5 ounce) cans condensed cream of mushroom soup </p>
+            </article>
+            <article class="card">
+                <h3 class="card-title"> Water </h3>
+                <p> 1/4 cups of water </p>
+            </article>
+            <article class="card">
+                <h3 class="card-title"> Onion soup </h3>
+                <p> 1 (1 ounce) package of dry onion soup mix </p>
+            </article>
+            <article class="card">
+                <h3 class="card-title"> Pot Roast Mix </h3>
+                <p> 5 1/2 pounds of pot roast </p>
+            </article>
+        </div>
+        
+    <h2>Directions</h2>
+        <ol>
+            <li>Mix condensed soup, water, and dry onion soup mix in a low cooker. Place pot roast in the cooker and coat with soup mixture.</li>
+            <li>Cook on low for 8 to 9 hours.</li>
+
+        </ol>
+    <a href="../index.html"><button>Back to Main</button></a>
 </body>
 </html>
