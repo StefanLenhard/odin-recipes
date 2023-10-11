@@ -75,10 +75,15 @@ button {
     gap: 2rem;
     display: flex;
     border: 0px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .columns > * {
-    flex: 1; 
+    flex: 1;
+    min-width: 150px;
+    max-width: 150px;
+
 }
 
 
@@ -88,27 +93,3 @@ button {
     border: 1px dotted black;
 }
 
-/* the flex parts are redundant and just in there until I have updated all sub-pages, newer version with columns and cards */
-.flex {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.flex-item {
-    flex: 1 1 auto;
-    max-width: 200px;
-    padding: 10px;
-}
-
-.flex-item {
-    text-align: center;
-    min-width: 150px;
-}
-
-.flex-item + .flex-item {
-    border-left: 1px solid black;
-}
