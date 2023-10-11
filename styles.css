@@ -31,8 +31,6 @@ button {
 }
 
 
-
-
 .container {
     max-width: 70%;
     margin-right: auto;
@@ -48,24 +46,23 @@ button {
     display: flex;
     flex-direction: row;
     border: 0px solid black;
+    flex: 1;
+    gap: 1rem;
 }
 
-.headline-description-container {
+.description-container {
     width: auto;
-    padding-left: 15px;
-    margin-top: -25px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-start;
     border: 0px solid black; 
 }
 .top-container > * {
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .top-container p {
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 
@@ -73,9 +70,11 @@ button {
     margin: 20px 0 0 0;
     max-width: 550px;
 }
+
+
 .columns {
-    display: flex;
     gap: 2rem;
+    display: flex;
     border: 0px solid black;
 }
 
@@ -85,13 +84,10 @@ button {
 
 
 .card {
+    background-color: lightblue;
     padding: 1rem;
-    background: lightblue;
-    border: 1px solid black;
+    border: 1px dotted black;
 }
-
-
-
 
 /* the flex parts are redundant and just in there until I have updated all sub-pages, newer version with columns and cards */
 .flex {
